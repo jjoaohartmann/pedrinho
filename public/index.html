@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
 </head>
+
 <body>
-    <h1>oioioioi</h1>
-    
+    <h1>frontend + backend + banco de dados</h1>
+    <p>Cada botão chama um metodo</p>
+
+    <hr>
+<section>
+    <h2>GET - Listar alunos</h2>
+    <button id="btn-get">listar</button>
+    <div id="lista"></div>
+</section>
+    <hr>
+
+    <section>
+        <h2>POST - Cadastra aluno</h2>
+        <input placeholder="Nome" id="Cad-nome" />
+        <input placeholder="E-mail" type="email" id="Cad-email" />
+        <input placeholder="Senha" id="Cad-senha" />
+        <button id="btn-cadastrar">Cadastrar</button>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>PUT - Atualizar Cadastro</h2>
+        <input placeholder="Id" id="Atualizar-id" />
+        <input placeholder="Nome" id="Atualizar-nome" />
+        <input placeholder="E-mail" type="email" id="Atualizar-email" />
+        <input placeholder="Senha" id="Atualizar-senha" />
+        <button id="btn-atualizar">Atualizar</button>
+    </section>
+
+    <section>
+        <h2>DELETE - Apagar alunos</h2>
+        <input placeholder="ID" id="deletar-id">
+        <button id="btn-apagar">Apagar</button>
+    </section>
+
+<script src="script.js"></script>
 </body>
+
 </html>
